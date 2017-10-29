@@ -14,8 +14,10 @@ h1{
   font-weight: bold;
 }
 
-.banner ul {
+.banner, li {
   font-size: 18px;
+  list-style-type: none;
+  margin: 0 0 .77em 0;
 }
 
 h2 {
@@ -30,4 +32,11 @@ h3 {
 
 p {
   font-size: 14px;
+}
+
+.footer {
+  font-size: 11px;
+  background-color: dimgray;
+  color: white;
+  text-align: left;
 }
